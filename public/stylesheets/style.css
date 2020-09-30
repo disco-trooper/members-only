@@ -1,0 +1,6 @@
+.close {
+  outline: none !important;
+}
+.close > span:focus {
+  outline: none !important;
+}
