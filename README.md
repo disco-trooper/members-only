@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> A simple message board made for the practice purposes of authentication. Enter code "IWANNABECOOL" to become a member or "IWANNABESUPERCOOL" to become admin. Project made as a part of [The Odin Project's curriculum](https://www.theodinproject.com/courses/nodejs/lessons/members-only).
+> A simple message board made for the practice purposes of authentication. Enter code "IWANNABECOOL" to become a member or "IWANNABESUPERCOOL" to become an admin. Project made as a part of [The Odin Project's curriculum](https://www.theodinproject.com/courses/nodejs/lessons/members-only).
 
 ### ✨ [Demo](https://disco-members-only.herokuapp.com/)
 
