@@ -92,7 +92,6 @@ exports.userLogInGet = (req, res) => {
 // POST Log-In Form
 exports.userLogInPost = (req, res) => {
   passport.authenticate('local', (err, user, info) => {
-    console.log(req.body);
     if (err) {
       res.render('log-in', {
         errors: { login: { msg: 'Internal error.' } },
