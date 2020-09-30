@@ -2,7 +2,7 @@ extends layout
 
 block content
   h2.mt-3.mb-3.text-center Log-In
-  form.mx-auto(action="" method="POST" style="width:20rem")
+  form.mx-auto(action="" method="POST" style="max-width:20rem")
     .form-group
       label(for="username") Username
       input#username(class="form-control" name='username' type='text' value=(!username ? "" : username))

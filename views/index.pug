@@ -6,7 +6,7 @@ block content
   .container-fluid.d-flex.flex-column.align-items-center
     if messages
       for message in messages
-        .card.mb-3(style="width:35rem")
+        .card.mb-3.message
           .card-body
             if user && user.status === "admin"
               - let url = `/delete/${message._id}`
