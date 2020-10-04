@@ -6,6 +6,7 @@ const passport = require('passport');
 // GET User Sign-Up Form
 exports.userSignUpGet = (req, res) =>
   res.render('sign-up', { title: 'Sign-Up' });
+
 // POST User Sign-Up Form
 exports.userSignUpPost = [
   // Validate and sanitize data
